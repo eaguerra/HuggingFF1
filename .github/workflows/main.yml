@@ -18,4 +18,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HG }}
-        run: git push --FPRCE https://eaguerra:$HG@huggingface.co/spaces/eaguerra/DemoHHFF1 main
+        run: git push --force https://eaguerra:$HG@huggingface.co/spaces/eaguerra/DemoHHFF1 main
