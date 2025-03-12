@@ -17,5 +17,5 @@ jobs:
           lfs: true
       - name: Push to hub
         env:
-          HF_TOKEN: ${{ secrets.HG }}
-        run: git push --force https://eaguerra:$HG@huggingface.co/spaces/eaguerra/DemoHHFF1 main
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: git push --force https://eaguerra:$HF_TOKEN@huggingface.co/spaces/eaguerra/DemoHHFF1 main
